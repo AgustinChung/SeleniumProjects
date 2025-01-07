@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="4" passed="4" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2025-01-06T15:33:47 ART" name="Suite" finished-at="2025-01-06T15:33:52 ART" duration-ms="4760">
+    <groups>
+    </groups>
+    <test started-at="2025-01-06T15:33:47 ART" name="Test" finished-at="2025-01-06T15:33:52 ART" duration-ms="4760">
+      <class name="tests.LogInFallido">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.LogInFallido@31ea9581]" started-at="2025-01-06T15:33:44 ART" name="setUp" finished-at="2025-01-06T15:33:47 ART" duration-ms="3599" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="loginFallido(java.lang.String,java.lang.String)[pri:0, instance:tests.LogInFallido@31ea9581]" started-at="2025-01-06T15:33:49 ART" name="loginFallido" data-provider="Login fallido" finished-at="2025-01-06T15:33:50 ART" duration-ms="1325" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[smith]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[password]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginFallido -->
+        <test-method signature="loginFallido(java.lang.String,java.lang.String)[pri:0, instance:tests.LogInFallido@31ea9581]" started-at="2025-01-06T15:33:50 ART" name="loginFallido" data-provider="Login fallido" finished-at="2025-01-06T15:33:51 ART" duration-ms="890" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[ ]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[ ]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginFallido -->
+        <test-method signature="loginFallido(java.lang.String,java.lang.String)[pri:0, instance:tests.LogInFallido@31ea9581]" started-at="2025-01-06T15:33:51 ART" name="loginFallido" data-provider="Login fallido" finished-at="2025-01-06T15:33:52 ART" duration-ms="885" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[tomsmith]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[ ]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginFallido -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.LogInFallido@31ea9581]" started-at="2025-01-06T15:33:53 ART" name="tearDown" finished-at="2025-01-06T15:33:53 ART" duration-ms="326" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- tests.LogInFallido -->
+      <class name="tests.LogInExitoso">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.LogInExitoso@268f106e]" started-at="2025-01-06T15:33:37 ART" name="setUp" finished-at="2025-01-06T15:33:44 ART" duration-ms="6462" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="login(java.lang.String,java.lang.String)[pri:0, instance:tests.LogInExitoso@268f106e]" started-at="2025-01-06T15:33:48 ART" name="login" data-provider="Login exitoso" finished-at="2025-01-06T15:33:49 ART" duration-ms="1537" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[tomsmith]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[SuperSecretPassword!]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.LogInExitoso@268f106e]" started-at="2025-01-06T15:33:52 ART" name="tearDown" finished-at="2025-01-06T15:33:53 ART" duration-ms="386" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- tests.LogInExitoso -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
